@@ -777,6 +777,8 @@ section {
   background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
+  text-align: center;
+  align-items: center;
 }
 .cta h3 {
   color: #fff;
@@ -815,6 +817,8 @@ section {
     justify-content: flex-end;
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1358,6 +1362,8 @@ section {
 .contact .php-email-form button[type=submit]:hover {
   background: #209dd8;
 }
+
+
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1574,4 +1580,5 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+  
 }
