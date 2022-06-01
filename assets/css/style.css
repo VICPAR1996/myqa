@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -760,7 +760,7 @@ section {
 }
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
 }
 .services .icon-box:hover {
@@ -774,7 +774,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/oficina.jpeg") fixed center center;
   background-size: cover;
   padding: 120px 0;
   text-align: center;
