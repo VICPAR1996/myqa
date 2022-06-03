@@ -527,6 +527,7 @@ section {
 }
 .section-title p {
   margin-bottom: 0;
+  font-size: 18px;
 }
 
 /*--------------------------------------------------------------
@@ -571,6 +572,9 @@ section {
   font-weight: 600;
   font-size: 26px;
 }
+.about .content p {
+  font-size: 18px;
+}
 .about .content ul {
   list-style: none;
   padding: 0;
@@ -578,6 +582,7 @@ section {
 .about .content ul li {
   padding-left: 28px;
   position: relative;
+  font-size: 18px;
 }
 .about .content ul li + li {
   margin-top: 10px;
@@ -681,6 +686,7 @@ section {
 .why-us .accordion-list p {
   margin-bottom: 0;
   padding: 10px 0 0 0;
+  font-size: 18px;
 }
 .why-us .accordion-list .icon-show {
   display: none;
@@ -728,6 +734,9 @@ section {
   font-size: 32px;
   color: #37517e;
   font-family: "Poppins", sans-serif;
+}
+.skills .content p {
+  font-size: 18px;
 }
 .skills .content ul {
   list-style: none;
