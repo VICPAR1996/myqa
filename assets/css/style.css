@@ -452,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .swiper {
   color:rgb(255, 255, 255);
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
   width: 640px; 
   padding: 50px;
   font-family: 'Lexend Deca', sans-serif;  
@@ -486,9 +486,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--color-primary);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 991px) {
   #hero .swiper {
-    margin: 60px 60px 40px 60px;
+    margin: 0 auto;
   }
 
   #hero .swiper-button-prev,
@@ -497,36 +497,36 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 991px) {
   #hero .swiper {
-    margin: 20px 20px 10px 20px;
+    margin: 0 auto;
   }
 }
 
 #hero .swiper-slide {
   color:rgb(255, 255, 255);
   align-items: center;
-  margin: auto;
-  width: 640px; 
-  padding: 50px;
+  margin: 0 auto;
+  padding: 70px;
   opacity: 1;
 }
 
 
-@media (max-width: 1199px) {
+@media (max-width: 500px) {
   #hero .swiper-slide-active {
     opacity: 1;
+    margin: 0 auto;
   }
 
   #hero .swiper-pagination {
-    margin-top: 0;
+    margin: 0 auto;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
   #hero .swiper-slide-next {
     opacity: 1;
-    transform: scale(1.12);
+    margin: 0 auto;
   }
 }
 
