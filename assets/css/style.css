@@ -5,6 +5,30 @@
 * License: https://bootstrapmade.com/license/
 */
 
+#content-1 {
+  height: 400px;
+  width: auto;
+  border-radius: 1px;
+  border-style: solid;
+}
+
+.my-col {
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (min-width: 768px) {
+  .my-col {
+    width: 25%;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
